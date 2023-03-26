@@ -17,7 +17,15 @@ npm run build
 
 ### Run your unit tests
 ```
-npm run test:unit
+npm run test:unit 
+```
+
+
+### Update Snapshot
+```
+npm run test:unit:update pokemonpage
+or
+npm run test:unit pokemonpage -- -u
 ```
 
 ### Customize configuration
